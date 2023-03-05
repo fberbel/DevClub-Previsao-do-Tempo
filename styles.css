@@ -1,0 +1,94 @@
+/* O que é o CSS? O CSS é o estilizador da página */
+
+* { /* O * Altera tudo */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-family: 'IBM Plex Serif', serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;/* vh = Largura */
+    width: 100vw;/* vw = Largura */
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+}
+
+.caixamaior {
+    background-color: #000;/* Troca a cor de fundo */
+    width: 95%;/* Largura */
+    max-width: 420px;/* Largura máxima */
+    opacity: 0.8;/* Transparência do item */
+    padding: 20px;
+    border-radius: 25px;
+}
+
+input {
+    border: none;
+    /* Borda do elemento */
+    outline: none;
+    /* Borda Azul de seleção */
+    padding: 10px;/* Espaçamento interno */
+    border-radius: 24px;/* Arredonda as bordas */
+    font-size: 20px;/* Tamanho de texto do elemento */
+    background-color: #7c7c7c2b;
+    color: #ffffff;
+    width: calc(100% - 70px);
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #7c7c7c2b;
+    float: right;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7c7c7c6b;
+}
+
+.caixamedia {
+    margin-top: 30px;
+}
+
+.caixinha {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.lupa {
+    height: 20px;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 28px;/* Tamanho do texto */
+    margin-top: 30px;
+}
+
+.temperatura {
+    color: #ffffff;
+    margin-top: 30px;
+}
+
+.descricao {
+    color: #ffffff;
+    margin-left: 20px;
+    text-transform: capitalize; /* Deixa a primeira letra maiúscula */
+}
+
+.umidade {
+    color: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
