@@ -70,10 +70,19 @@ button:hover {
     height: 20px;
 }
 
-h2 {
+.paginaInicial {
     color: #ffffff;
     font-size: 28px;/* Tamanho do texto */
     margin-top: 30px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.cidade {
+    color: #ffffff;
+    font-size: 28px;/* Tamanho do texto */
+    margin-top: 30px;
+    max-width: 100%;
 }
 
 .temperatura {

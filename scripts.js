@@ -4,6 +4,7 @@
 let chave = "4d84fbece14c50151235d310f874a9a0"
 
 function colocarNaTela(dados){
+    document.querySelector(".paginaInicial").innerHTML=" "
     document.querySelector(".cidade").innerHTML="Tempo em " + dados.name
     document.querySelector(".temperatura").innerHTML= 'Temperatura: ' + Math.floor(dados.main.temp) + "°C"
     document.querySelector(".descricao").innerHTML=dados.weather[0].description
