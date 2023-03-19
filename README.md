@@ -2,8 +2,8 @@
 <br>
 <br>
 <div>
-<img src="https://github.com/fernandoberbel/devclub-previsao-do-tempo/blob/master/assets/layout/iPhone%2014%20Pro%20Space%20Black%20Mockup.png?raw=true" alt="img-iphne14" width="270px" margin-right="50px">
-<img src="https://github.com/fernandoberbel/devclub-previsao-do-tempo/blob/master/assets/layout/iMac%2027-inch%20Mockup.png?raw=true" alt="img-imac" width="680px">
+<img src="https://github.com/fernandoberbel/devclub-previsao-do-tempo/blob/master/assets/layout/iPhone%2014%20Pro%20Space%20Black%20Mockup.png?raw=true" alt="img-iphne14" width="230px" margin-right="50px">
+<img src="https://github.com/fernandoberbel/devclub-previsao-do-tempo/blob/master/assets/layout/iMac%2027-inch%20Mockup.png?raw=true" alt="img-imac" width="640px">
 </div>
 <br>
 <br>
